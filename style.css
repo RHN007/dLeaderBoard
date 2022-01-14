@@ -140,3 +140,81 @@ ul li {
     color: #562EFF;
 
 }
+
+
+/* Latest Couse section */
+.courses {
+    display: grid;
+   grid-template-columns: repeat(3, 1fr);
+    
+
+}
+.course{
+   position: relative;
+    border-radius: 20px;
+    box-shadow: 5px 10px 12px #f1e1e1;
+    margin-left: 28px;
+   
+}
+
+
+
+
+
+.ratings-duration{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+
+
+p .fas.fa-star.filled{
+    color: #FFC014;
+    ;
+}
+p .fas.fa-star.blank {
+    color: #AEAEAE;
+    ;
+}
+
+.duration p{
+    background-color: #FFE4E8;
+    border-radius: 14.6913px;
+    color: #FF4A60;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14.6913px;
+    padding: 7px;
+    
+   
+}
+.course-details{
+    font-family: "Roboto", sans-serif;
+}
+
+
+.course img{
+    width: 224px;
+    height: 104px;
+    padding: 13px 11px 8px 17px;
+}
+
+.instructor{
+    color:#ED6B4F;
+}
+.course-title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20.0336px;
+    padding-left:11px;
+}
+
+.course-title,
+.instructor,
+.ratings-duration{
+    padding-left:11px;
+}
