@@ -44,8 +44,8 @@ hr {
  nav{
   position: relative;
   display: flex;
-  Width: 1440px; 
-  Height: 94px;
+  /* Width: 1440px; 
+  Height: 94px; */
   align-items: center;
   justify-content: space-around;
   background-color: #562EFF
